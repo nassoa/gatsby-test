@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[574],{9951:function(e,l,n){n.r(l);var r=n(7294);l.default=function(){return r.createElement("div",{class:"headbanner"},r.createElement("h1",null," Ensemble, nous allons faire ",r.createElement("br",null)," briller votre image."),r.createElement("h2",null,"  Lueur Externe, communication & web agency "))}}}]);
+//# sourceMappingURL=component---src-pages-components-headbanner-js-8419b46ff07d18eaadcd.js.map
