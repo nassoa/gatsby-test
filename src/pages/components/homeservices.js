@@ -9,7 +9,7 @@ const homeservices = () => {
           <Link to="#" class="service-block">
               <div class="image">
                 <StaticImage
-                  src="../../assets/images/icone-studio-graphique.png"
+                  src="../../assets/images/icone-studio-graphique.svg"
                   width={200}
                   alt=""
                 />
