@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;500;600;700&family=Kanit:wght@400;500;600&family=Montserrat:wght@400;500;600&family=Mr+Dafoe&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 46px;
+}
+h3 {
+    font-size: 25px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: 400;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a,
+.btn {
+    transition: all .2s ease-in-out;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 17px;
+    line-height: 43px;
+    text-align: center;
+    border-radius: 30px;
+}
+.btn-primary {
+    color: #13100d;
+    background-color: transparent;
+    border: 1px solid #13100d;
+    text-transform: uppercase;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #13100d;
+}
+
+.header-container {
+    padding: 15px 0;
+    min-height: calc(100vh - 61px);
+    background: url('../images/lueur-externe-agence-communication-et-web-agency.jpg') no-repeat;
+}
+.logo-content {
+    max-width: 280px;
+    margin: 10px auto;
+}
+.navbar-content {
+    margin: 45px 0 20px;
+}
+.navbar-content ul {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.navbar-content ul li a {
+    color: rgba(255,255,255,.7);
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+.navbar-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.headbanner {
+    margin: 180px 0 0;
+}
+.headbanner h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 400;
+}
+.headbanner h2 {
+    color: #ffed00;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sect-services {
+    margin: 40px 0;
+}
+.services-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-columns a {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin: 20px 0;
+}
+.services-columns .service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-columns .service-block a {
+    padding: 30px 30px
+}
+.services-columns .service-block span {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 38px;
+    color: #ff3e51;
+}
+.services-columns .service-block h2 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #222328;
+}
+.services-columns .service-block .desc {
+    margin-top: 10px;
+    text-align: center;
+    color: #a7a7a7!important;
+    font-size: 19px;
+}
+
+.title-style {
+    display: flex;
+    margin: 30px 0;
+    font-weight: 900;
+    font-size: 64px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.title-style span {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 36px;
+    text-transform: none;
+    text-align: right;
+}
+
+.sect-portfolio {
+    margin: 125px 0 60px;
+}
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.portfolio-list .portfolio-block {
+    min-height: 390px;  
+    background-color: #dddbdb;
+}
+
+.sect-valeurs {
+    margin: 40px 0;
+}
+.valeurs-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.valeurs-list .valeurs-block h3 {
+    margin: 30px 0;
+}
+
+.sect-homecontact {
+    padding: 42px 0;
+    text-align: center;
+    background-color: #ff525b;
+}
+.sect-homecontact .desc {
+    text-align: center;
+    color: #fff;
+}
+.sect-homecontact .btn {
+    margin-top: 40px;
+}
